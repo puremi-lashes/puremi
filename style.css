@@ -19,15 +19,21 @@ body {
   p {
      color: #555;
    }
+
   a.button {
-    display: inline-block;
-    margin: 40px 0;
-     padding: 15px 30px;
-    background: #222;
-     color: #fff;
-     text-decoration: none;
-     border-radius: 30px;
- }
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  margin: 40px 0;
+  padding: 15px 30px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
  footer a {
    color: #555;
    margin: 0 10px;
