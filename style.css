@@ -1,24 +1,11 @@
 .footer-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.3em;
 }
 
-.footer-link .icon {
-  width: 1em;
+.footer-icon {
   height: 1em;
-  fill: currentColor;
-  flex-shrink: 0;
-}
-
-.instagram-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3em; /* Abstand zwischen Icon und Text */
-}
-
-.instagram-icon {
-  height: 1em;      /* exakt Textgröße */
   width: auto;
   vertical-align: middle;
 }
