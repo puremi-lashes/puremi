@@ -10,3 +10,15 @@
   fill: currentColor;
   flex-shrink: 0;
 }
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em; /* Abstand zwischen Icon und Text */
+}
+
+.instagram-icon {
+  height: 1em;      /* exakt Textgröße */
+  width: auto;
+  vertical-align: middle;
+}
