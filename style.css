@@ -17,3 +17,7 @@ footer {
   width: auto;
   vertical-align: middle;
 }
+
+.footer-sep {
+  line-height: 1;
+}
