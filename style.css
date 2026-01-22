@@ -12,6 +12,28 @@ body {
   padding: 80px 20px;
 }
 
+ h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+  p {
+     color: #555;
+   }
+  a.button {
+    display: inline-block;
+    margin: 40px 0;
+     padding: 15px 30px;
+    background: #222;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 30px;
+ }
+ footer a {
+   color: #555;
+   margin: 0 10px;
+   text-decoration: none;
+}
+
 footer {
   display: flex;
   justify-content: center;
