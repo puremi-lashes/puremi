@@ -1,1 +1,12 @@
-/* Start – erstmal leer, damit sich nichts verändert */
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.footer-link .icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  flex-shrink: 0;
+}
