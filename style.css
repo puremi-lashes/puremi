@@ -1,3 +1,23 @@
+:root{
+  /* puremi Palette */
+  --puremi-sand:  #e5ded2;
+  --puremi-ivory: #fbf7f4;
+  --puremi-taupe: #a39382;
+  --puremi-mocha: #685d54;
+  --puremi-ink:   #232323;
+
+  /* Rollen (so bleibt das Design gleich) */
+  --bg:           var(--puremi-ivory);
+  --text:         var(--puremi-ink);
+  --muted:        var(--puremi-mocha);
+  --surface:      #ffffff;          /* Box bleibt „weiß“ wie jetzt */
+  --surface-alt:  var(--puremi-sand);
+  --accent:       var(--puremi-ink); /* Button wie bisher dunkel */
+  --accent-text:  #ffffff;
+  --link:         var(--puremi-mocha);
+  --border:       var(--puremi-sand);
+}
+
 html {
   scrollbar-gutter: stable;
 }
@@ -5,8 +25,8 @@ html {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #fafafa;
-  color: #222;
+  background: var(--bg);
+  color: var(--text);
   text-align: center;
 }
 
@@ -22,21 +42,21 @@ body {
   text-align: center;
 }
 
-  p {
-     color: #555;
-   }
+p { color: var(--muted); }
 
-  a.button {
+a.button {
   display: inline-block;
-  margin: 40px 0 80px; /* oben | links/rechts | unten */
+  margin: 40px 0 80px; /* (dein größerer Abstand zum Footer) */
   padding: 15px 30px;
-  background: #222;
-  color: #fff;
+  background: var(--accent);
+  color: var(--accent-text);
   text-decoration: none;
   border-radius: 30px;
 }
 
-
+a.button:hover {
+  background: var(--puremi-mocha);
+}
 
 .button-icon {
   height: 1.4em;
@@ -49,12 +69,14 @@ body {
    text-decoration: none;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.6em;
-  line-height: 1;
+footer a {
+  color: var(--link);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--text);
 }
 
 .footer-link {
@@ -81,12 +103,13 @@ footer {
 }
 
 .box {
-  background: #fff;
+  background: var(--surface);
   padding: 24px;
   border-radius: 12px;
   margin-top: 20px;
   text-align: left;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 20px rgba(35, 35, 35, 0.06);
+  border: 1px solid var(--border);
 }
 
 .box h2 {
