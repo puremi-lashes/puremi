@@ -76,14 +76,15 @@ footer a:hover {
 
 .footer-link {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.3em;
 }
 
 .footer-icon {
   height: 1em;
   width: auto;
-  vertical-align: middle;
+  display: block;
+  transform: translateY(0.1em);
 }
 
 .footer-sep {
