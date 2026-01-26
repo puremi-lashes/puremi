@@ -117,3 +117,12 @@ footer a:hover {
   width: auto;
 }
 
+.link-colors {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link-colors:hover {
+  color: var(--link);
+}
