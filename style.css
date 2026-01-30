@@ -1,13 +1,13 @@
 :root{
   /* puremi Palette */
   --puremi-sand:  #e5ded2;
-  --puremi-ivory: #fbf7f4;
+  --puremi-milk: ##FCF7F5;
   --puremi-taupe: #a39382;
   --puremi-mocha: #685d54;
   --puremi-ink:   #232323;
 
   /* Rollen (so bleibt das Design gleich) */
-  --bg:           var(--puremi-ivory);
+  --bg:           var(--puremi-milk);
   --text:         var(--puremi-ink);
   --muted:        var(--puremi-mocha);
   --surface:      #ffffff;          /* Box bleibt „weiß“ wie jetzt */
