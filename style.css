@@ -92,10 +92,9 @@ footer a:hover {
 }
 
 .logo {
-  display: block;
-  max-width: 100%;
+  max-width: 150px;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
 .box {
@@ -127,8 +126,4 @@ footer a:hover {
   color: var(--link);
 }
 
-.logo {
-  max-width: 150px;
-  width: 100%;
-  height: auto;
-}
+
