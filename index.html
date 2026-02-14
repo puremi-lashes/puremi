@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <title>puremi</title>
+
+  <!-- SEO -->
+  <meta name="description" content="puremi – Wimpern & Beauty. Termin online buchen. Folge uns auf Instagram für aktuelle Arbeiten und Angebote." />
+  <link rel="canonical" href="https://puremi.de/" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,27 +16,33 @@
 
   <div class="container">
 
-<img src="images/puremi_logo.png" alt="puremi logo" class="logo">
+    <!-- Optional: SEO/Accessibility ohne sichtbare Änderung (braucht sr-only CSS) -->
+    <h1 class="sr-only">puremi – Wimpern & Beauty</h1>
+    <p class="sr-only">Buche deinen Termin online oder folge puremi auf Instagram.</p>
+
+    <img src="images/puremi_logo.png" alt="puremi" class="logo">
     <br>
-    
-<a class="button" href="https://beautinda.de/artist/Q60KPCnvaffQh8k6oYBYm7BGyKo1" target="_blank">
-  Termin buchen
-</a>
-<br>
-<footer>
-  <a href="https://www.instagram.com/puremi.lashes?igsh=MTFka3BjdGR5am9qdQ==" class="footer-link">
-    <img src="images/instagram_logo.png" alt="instagram logo" class="footer-icon">
-    Instagram
-  </a>
 
-  <span class="footer-sep">·</span>
+    <a class="button" href="https://beautinda.de/artist/Q60KPCnvaffQh8k6oYBYm7BGyKo1" target="_blank" rel="noopener">
+      Termin buchen
+    </a>
+    <br>
 
-  <a href="/agb" class="footer-link">AGB</a>
+    <!-- Footer von Google-Snippets ausschließen -->
+    <footer data-nosnippet>
+      <a href="https://www.instagram.com/puremi.lashes?igsh=MTFka3BjdGR5am9qdQ==" class="footer-link" rel="noopener">
+        <img src="images/instagram_logo.png" alt="" class="footer-icon">
+        Instagram
+      </a>
 
-  <span class="footer-sep">·</span>
+      <span class="footer-sep">·</span>
 
-  <a href="/impressum" class="footer-link">Impressum</a>
-</footer>
+      <a href="/agb" class="footer-link">AGB</a>
+
+      <span class="footer-sep">·</span>
+
+      <a href="/impressum" class="footer-link">Impressum</a>
+    </footer>
 
   </div>
 
